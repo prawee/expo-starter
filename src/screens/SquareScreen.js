@@ -24,6 +24,13 @@ const SquareScreen = () => {
         onIncrease={()=> setGreen(green +1)}
         onDecrease={()=> setGreen(green -1)}
       />
+      <View 
+        style={{ 
+          height: 100, 
+          width: 100, 
+          backgroundColor: `rgb(${red},${green},${blue})`
+        }} 
+      />
     </View>
   )
 }
