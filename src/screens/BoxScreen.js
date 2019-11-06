@@ -26,17 +26,24 @@ const styles = StyleSheet.create({
     //marginVertical: 20,
     //marginHorizontal: 20,
     //margin: 20,
-    flex: 4
+    //flex: 4
   },
   textTwoStyle: {
     borderWidth: 3,
-    borderColor: 'red',
-    flex: 4
+    borderColor: 'blue',
+    //flex: 4
+    //alignSelf: 'stretch',
+    //position: 'absolute',
+    fontSize: 18,
+    //top: 10,
+    //bottom: 10,
+    //right: 10,
+    left: 10
   },
   textThreeStyle: {
     borderWidth: 3,
     borderColor: 'red',
-    flex: 2
+    //flex: 2
   }
 });
 
