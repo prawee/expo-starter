@@ -17,7 +17,8 @@ const styles = StyleSheet.create({
     borderColor: 'black',
     //alignItems: 'flex-end', //stretch(default) | flex-start | center | flex-end
     flexDirection: 'row', // column(default) | row
-    height: 200
+    height: 200,
+    justifyContent: 'space-between', // flex-start | center | flex-end | space-between | space-around
   },
   textStyle: {
     borderWidth: 3,
