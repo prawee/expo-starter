@@ -33,12 +33,13 @@ const styles = StyleSheet.create({
     borderColor: 'blue',
     //flex: 4
     //alignSelf: 'stretch',
-    //position: 'absolute',
     fontSize: 18,
-    //top: 10,
-    //bottom: 10,
-    //right: 10,
-    left: 10
+    // position: 'absolute',
+    // top: 0,
+    // right: 0,
+    // bottom: 0,
+    // left: 0
+    ...StyleSheet.absoluteFillObject
   },
   textThreeStyle: {
     borderWidth: 3,
